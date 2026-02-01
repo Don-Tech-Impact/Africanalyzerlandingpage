@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { Check, Lock, Sparkles } from 'lucide-react';
 
 const plans = [

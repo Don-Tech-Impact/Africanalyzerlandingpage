@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
 import { RequestAccessModal } from './RequestAccessModal';
 import { Logo } from './Logo';

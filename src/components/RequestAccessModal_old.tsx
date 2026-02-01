@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { motion, AnimatePresence } from 'motion/react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { X, CheckCircle, Mail, User, Building2 } from 'lucide-react';
 
 interface RequestAccessModalProps {

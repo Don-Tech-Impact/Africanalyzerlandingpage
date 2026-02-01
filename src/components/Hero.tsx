@@ -1,4 +1,4 @@
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { ChevronRight, Shield, Activity, AlertTriangle, CheckCircle, Eye, Database } from 'lucide-react';
 import { useState } from 'react';
 import { RequestAccessModal } from './RequestAccessModal';
