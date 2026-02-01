@@ -1,4 +1,4 @@
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { Database, Gauge, Users, Shield, Sparkles, FileText, UserCheck, Lock, Activity, Bell, GitBranch, Archive } from 'lucide-react';
 
 const features = [

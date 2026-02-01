@@ -1,5 +1,5 @@
 import { Logo, LogoMinimal, LogoAfrica, LogoWordmark } from './Logo';
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { Download, Copy, Check } from 'lucide-react';
 import { useState } from 'react';
 

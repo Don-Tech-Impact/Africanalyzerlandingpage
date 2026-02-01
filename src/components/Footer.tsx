@@ -1,4 +1,4 @@
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { Mail, Twitter, Linkedin, Github, Globe } from 'lucide-react';
 import { Logo } from './Logo';
 

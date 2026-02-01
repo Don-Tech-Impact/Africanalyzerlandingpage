@@ -1,4 +1,4 @@
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { Database, BarChart3, Brain, Lock } from 'lucide-react';
 
 const cards = [

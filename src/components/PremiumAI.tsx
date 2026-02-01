@@ -1,4 +1,4 @@
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { Sparkles, Lock, ArrowRight, Zap, TrendingUp, Shield } from 'lucide-react';
 
 const aiFeatures = [
