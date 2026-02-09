@@ -1,6 +1,8 @@
 import { motion } from 'framer-motion';
 import { Linkedin, Github, Twitter, Mail } from 'lucide-react';
 import alexPhoto from '../assets/team/alex.webp';
+import lebbiePhoto from '../assets/team/lebbie.webp';
+import rolandPhoto from '../assets/team/roland.webp';
 
 export function Team() {
   return (
@@ -47,8 +49,8 @@ export function Team() {
               <div className="relative">
                 <div className="rounded-2xl overflow-hidden">
                   <img
-                    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=600&fit=crop&crop=faces"
-                    alt="Abdulai Tamba Lbbie"
+                    src={lebbiePhoto}
+                    alt="Abdulai Tamba Lebbie"
                     className="w-full h-auto object-cover"
                   />
                 </div>
@@ -73,17 +75,18 @@ export function Team() {
                 </div>
 
                 <div className="space-y-4 text-[#6B7280]">
-                  <p className="leading-relaxed">
-                    Abdulai is a visionary software engineer with a passion for leveraging technology 
-                    to unlock the untapped potential of African football. With over 5 years of experience 
-                    in data analytics and machine learning, he founded Afric-Analyzer to bridge the gap 
-                    between African talent and global opportunities.
-                  </p>
-                  <p className="leading-relaxed">
-                    His mission is to create the most comprehensive football analytics platform for Africa, 
-                    empowering scouts, clubs, and players with data-driven insights that were previously 
-                    inaccessible to the continent.
-                  </p>
+                <p className="leading-relaxed">
+                  Abdulai Tamba Lebbie is the Founder and Tech Lead of Afric-Analyzer. 
+                  With a background in Information Technology and a strong interest in AI and data systems, 
+                  he focuses on building practical digital solutions that address real challenges across Africa.
+                </p>
+
+                <p className="leading-relaxed">
+                  He is deeply passionate about secure system design and continuously improving his skills 
+                  in cybersecurity and emerging technologies. His approach combines clean development practices 
+                  with a strong emphasis on performance, structure, and long-term maintainability.
+                </p>
+
                   <div className="flex flex-wrap gap-2 pt-4">
                     <Skill text="AI & Machine Learning" />
                     <Skill text="Data Analytics" />
@@ -106,33 +109,38 @@ export function Team() {
         >
           {/* Team Member 1 */}
           <TeamMemberCard
-            name="Chinedum Eke"
+            name="Chinedum Roland Eke"
             role="Full Stack Developer"
-            image="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=600&h=600&fit=crop&crop=faces"
-            bio="Chinedum is a talented full stack developer specializing in building scalable web applications. With expertise in React, Node.js, and cloud technologies, he brings the Afric-Analyzer vision to life through elegant and performant code."
-            skills={["React & TypeScript", "Node.js", "PostgreSQL", "AWS"]}
+            
+            image={rolandPhoto} // replace with his actual image path if hosted locally
+            bio="Chinedum is a Full Stack Developer and DevOps enthusiast with strong expertise in Node.js, TypeScript, cloud infrastructure, and scalable backend systems. He builds and deploys reliable applications that power Afric-Analyzer."
+            skills={["Node.js & Express", "TypeScript", "PostgreSQL", "AWS & Terraform", "Docker"]}
             socialLinks={{
-              linkedin: "#",
-              github: "#",
-              twitter: "#"
+              linkedin: "https://www.linkedin.com/in/chinedum-roland-eke/",
+              github: "https://github.com/chinedum-eke",
+              twitter: "https://twitter.com/", // update if you have his real one
             }}
           />
 
           {/* Team Member 2 */}
           <TeamMemberCard
             name="Alex Alison Sesay"
-            role="Cybersecurity Analyst"
-            // image="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=600&h=600&fit=crop&crop=faces"
+            role="Cybersecurity & Frontend Developer"
             image={alexPhoto}
-            skills={["Penetration Testing", "Network Security", "Threat Analysis", "Compliance"]}
+            bio="Alex is a cybersecurity specialist and frontend developer focused on building secure and user-friendly web applications. He combines security best practices with modern frontend technologies to ensure Afric-Analyzer is both safe and seamless."
+            skills={[
+              "React.js",
+              "Tailwind CSS",
+              "Penetration Testing",
+              "Network Security"
+            ]}
             socialLinks={{
-              linkedin: "#",
-              github: "#",
+              linkedin: "https://www.linkedin.com/in/alex-sesay-248997332/",
+              github: "https://github.com/Al3x-Alison",
               twitter: "#"
             }}
-            imageWidth={100}
-            imageHeight={100}
           />
+
         </motion.div>
 
         {/* Call to Action */}
