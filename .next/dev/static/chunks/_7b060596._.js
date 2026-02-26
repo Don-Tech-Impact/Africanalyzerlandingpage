@@ -305,27 +305,6 @@ __turbopack_context__.s([
     ()=>supabase
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/node_modules/.pnpm/next@16.1.6_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
-// import { createClient } from "@supabase/supabase-js"
-// export const supabase = createClient(
-//   process.env.NEXT_PUBLIC_SUPABASE_URL!,
-//   process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
-// )
-// export async function submitWaitlistEmail(email: string) {
-//   const { error } = await supabase
-//     .from("access_requests")
-//     .insert([{ email, request_type: "waitlist" }])
-//   if (error) throw error
-// }
-// export async function submitFullAccessRequest(
-//   email: string,
-//   name: string,
-//   organization: string
-// ) {
-//   const { error } = await supabase
-//     .from("access_requests")
-//     .insert([{ email, name, organization, request_type: "full_access" }])
-//   if (error) throw error
-// }
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f40$supabase$2b$supabase$2d$js$40$2$2e$97$2e$0$2f$node_modules$2f40$supabase$2f$supabase$2d$js$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/@supabase+supabase-js@2.97.0/node_modules/@supabase/supabase-js/dist/index.mjs [app-client] (ecmascript) <locals>");
 ;
 const supabaseUrl = ("TURBOPACK compile-time value", "https://kgptbzspjtktsrhysgoi.supabase.co");
@@ -3250,222 +3229,6 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$lu
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$lucide$2d$react$40$0$2e$564$2e$0_react$40$19$2e$2$2e$4$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$github$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Github$3e$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/lucide-react@0.564.0_react@19.2.4/node_modules/lucide-react/dist/esm/icons/github.js [app-client] (ecmascript) <export default as Github>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$lucide$2d$react$40$0$2e$564$2e$0_react$40$19$2e$2$2e$4$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$twitter$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Twitter$3e$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/lucide-react@0.564.0_react@19.2.4/node_modules/lucide-react/dist/esm/icons/twitter.js [app-client] (ecmascript) <export default as Twitter>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$lucide$2d$react$40$0$2e$564$2e$0_react$40$19$2e$2$2e$4$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mail$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Mail$3e$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/lucide-react@0.564.0_react@19.2.4/node_modules/lucide-react/dist/esm/icons/mail.js [app-client] (ecmascript) <export default as Mail>");
-// "use client"
-// import { motion } from "framer-motion"
-// import { Linkedin, Github, Twitter, Mail } from "lucide-react"
-// const founder = {
-//   name: "Abdulai Tamba Lebbie",
-//   role: "FOUNDER & LEAD ENGINEER",
-//   bio: "Abdulai is the Founder and Tech Lead of Afric-Analyzer. With a background in Information Technology and a deep interest in AI and data systems, he focuses on building practical digital solutions that address real challenges across Africa. He is passionate about secure system design and combines clean development practices with a strong emphasis on performance and long-term maintainability.",
-//   skills: ["AI & Machine Learning", "Data Analytics", "Full Stack Development", "Cloud Architecture"],
-//   photo: "/team/lebbie.webp",
-// }
-// const members = [
-//   {
-//     name: "Chinedum Roland Eke",
-//     role: "FULL STACK DEVELOPER",
-//     bio: "Full Stack Developer and DevOps enthusiast with deep expertise in Node.js, TypeScript, cloud infrastructure, and scalable backend systems. He architects and deploys the core infrastructure powering Afric-Analyzer.",
-//     skills: ["Node.js", "TypeScript", "PostgreSQL", "AWS & Terraform", "Docker"],
-//     photo: "/team/roland.webp",
-//     linkedin: "https://www.linkedin.com/in/chinedum-roland-eke/",
-//     github: "https://github.com/chinedum-eke",
-//   },
-//   {
-//     name: "Alex Alison Sesay",
-//     role: "CYBERSECURITY & FRONTEND",
-//     bio: "Cybersecurity specialist and frontend developer combining rigorous security practices with modern UI to ensure Afric-Analyzer is both deeply secure and effortless to use.",
-//     skills: ["React.js", "Tailwind CSS", "Penetration Testing", "Network Security"],
-//     photo: "/team/alex.webp",
-//     linkedin: "https://www.linkedin.com/in/alex-sesay-248997332/",
-//     github: "https://github.com/Al3x-Alison",
-//   },
-// ]
-// function SocialIcon({ href, icon: Icon }: { href?: string; icon: React.ElementType }) {
-//   const Comp = href ? "a" : "span"
-//   return (
-//     <Comp
-//       href={href}
-//       target={href ? "_blank" : undefined}
-//       rel={href ? "noopener noreferrer" : undefined}
-//       className="flex h-[34px] w-[34px] items-center justify-center rounded-lg transition-colors"
-//       style={{
-//         background: "rgba(255,255,255,0.06)",
-//         border: "1px solid rgba(255,255,255,0.09)",
-//       }}
-//     >
-//       <Icon className="h-4 w-4" style={{ color: "rgba(255,255,255,0.55)" }} />
-//     </Comp>
-//   )
-// }
-// function SkillTag({ label }: { label: string }) {
-//   return (
-//     <span
-//       className="rounded-md px-3 py-1 text-xs font-semibold"
-//       style={{
-//         background: "rgba(255,255,255,0.06)",
-//         border: "1px solid rgba(255,255,255,0.09)",
-//         color: "rgba(255,255,255,0.65)",
-//       }}
-//     >
-//       {label}
-//     </span>
-//   )
-// }
-// const containerVariants = {
-//   hidden: {},
-//   visible: { transition: { staggerChildren: 0.1 } },
-// }
-// const itemVariants = {
-//   hidden: { opacity: 0, y: 32 },
-//   visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: [0.22, 1, 0.36, 1] } },
-// }
-// export default function Team() {
-//   return (
-//     <section style={{ backgroundColor: "#070D1A" }} className="py-24 lg:py-[100px]">
-//       <div className="mx-auto max-w-[1200px] px-6">
-//         {/* Section divider */}
-//         <motion.div
-//           className="flex items-center gap-4"
-//           initial={{ opacity: 0 }}
-//           whileInView={{ opacity: 1 }}
-//           viewport={{ once: true }}
-//           transition={{ duration: 0.6 }}
-//         >
-//           <div className="h-px flex-1" style={{ background: "rgba(255,255,255,0.08)" }} />
-//           <span className="whitespace-nowrap text-xs font-semibold uppercase tracking-[0.08em]" style={{ color: "rgba(255,255,255,0.3)" }}>
-//             The team
-//           </span>
-//           <div className="h-px flex-1" style={{ background: "rgba(255,255,255,0.08)" }} />
-//         </motion.div>
-//         {/* Headline */}
-//         <motion.div
-//           className="mt-8 mb-16 text-center"
-//           initial={{ opacity: 0, y: 40 }}
-//           whileInView={{ opacity: 1, y: 0 }}
-//           viewport={{ once: true, margin: "-80px" }}
-//           transition={{ duration: 0.65, ease: [0.22, 1, 0.36, 1] }}
-//         >
-//           <h2 className="text-balance text-white" style={{ fontSize: "clamp(2.2rem, 4vw, 3.2rem)", fontWeight: 800, letterSpacing: "-0.03em", lineHeight: 1.05 }}>
-//             The minds behind Afric-Analyzer
-//           </h2>
-//           <p className="mt-4" style={{ color: "rgba(255,255,255,0.5)", fontSize: "1rem" }}>
-//             A small, focused team building serious security infrastructure for Africa.
-//           </p>
-//         </motion.div>
-//         {/* Founder card */}
-//         <motion.div
-//           className="mb-8 grid items-center gap-8 overflow-hidden rounded-2xl p-8 lg:grid-cols-[320px_1fr] lg:gap-12 lg:p-10"
-//           style={{
-//             backgroundColor: "#0D1526",
-//             border: "1px solid rgba(255,255,255,0.08)",
-//           }}
-//           initial={{ opacity: 0, y: 40 }}
-//           whileInView={{ opacity: 1, y: 0 }}
-//           viewport={{ once: true, margin: "-80px" }}
-//           transition={{ duration: 0.65, ease: [0.22, 1, 0.36, 1] }}
-//         >
-//           {/* Photo */}
-//           <div className="overflow-hidden rounded-xl" style={{ aspectRatio: "3/4" }}>
-//             <div
-//               className="flex h-full w-full items-center justify-center rounded-xl"
-//               style={{ background: "linear-gradient(135deg, rgba(37,99,235,0.15), rgba(13,148,136,0.1))" }}
-//             >
-//               <span className="text-6xl font-black" style={{ color: "rgba(255,255,255,0.1)" }}>
-//                 {founder.name.split(" ").map(n => n[0]).join("")}
-//               </span>
-//             </div>
-//           </div>
-//           {/* Info */}
-//           <div>
-//             <p
-//               className="mb-2.5 text-[11px] font-bold uppercase tracking-[0.1em]"
-//               style={{ color: "rgba(255,255,255,0.35)" }}
-//             >
-//               {founder.role}
-//             </p>
-//             <h3 className="mb-1.5 text-white" style={{ fontSize: "2rem", fontWeight: 800, letterSpacing: "-0.03em" }}>
-//               {founder.name}
-//             </h3>
-//             <div className="mb-5 flex gap-2">
-//               <SocialIcon icon={Linkedin} />
-//               <SocialIcon icon={Github} />
-//               <SocialIcon icon={Twitter} />
-//               <SocialIcon icon={Mail} />
-//             </div>
-//             <p className="text-[15px] leading-[1.75]" style={{ color: "rgba(255,255,255,0.55)" }}>
-//               {founder.bio}
-//             </p>
-//             <div className="mt-5 flex flex-wrap gap-2">
-//               {founder.skills.map((s) => (
-//                 <SkillTag key={s} label={s} />
-//               ))}
-//             </div>
-//           </div>
-//         </motion.div>
-//         {/* Team members grid */}
-//         <motion.div
-//           className="grid gap-6 md:grid-cols-2"
-//           variants={containerVariants}
-//           initial="hidden"
-//           whileInView="visible"
-//           viewport={{ once: true, margin: "-80px" }}
-//         >
-//           {members.map((m, i) => (
-//             <motion.div
-//               key={i}
-//               variants={itemVariants}
-//               className="overflow-hidden rounded-[14px]"
-//               style={{ backgroundColor: "#0D1526", border: "1px solid rgba(255,255,255,0.08)" }}
-//             >
-//               {/* Photo */}
-//               <div className="h-60 w-full" style={{ borderBottom: "1px solid rgba(255,255,255,0.07)" }}>
-//                 <div
-//                   className="flex h-full w-full items-center justify-center"
-//                   style={{ background: "linear-gradient(135deg, rgba(37,99,235,0.1), rgba(13,148,136,0.06))" }}
-//                 >
-//                   <span className="text-5xl font-black" style={{ color: "rgba(255,255,255,0.08)" }}>
-//                     {m.name.split(" ").map(n => n[0]).join("")}
-//                   </span>
-//                 </div>
-//               </div>
-//               {/* Content */}
-//               <div className="p-6">
-//                 <p className="mb-1.5 text-[11px] font-bold uppercase tracking-[0.08em]" style={{ color: "rgba(255,255,255,0.35)" }}>
-//                   {m.role}
-//                 </p>
-//                 <h4 className="text-xl font-bold text-white" style={{ letterSpacing: "-0.02em" }}>
-//                   {m.name}
-//                 </h4>
-//                 <div className="my-3 flex gap-1.5">
-//                   <SocialIcon href={m.linkedin} icon={Linkedin} />
-//                   <SocialIcon href={m.github} icon={Github} />
-//                 </div>
-//                 <p className="mb-4 text-[13px] leading-[1.65]" style={{ color: "rgba(255,255,255,0.5)" }}>
-//                   {m.bio}
-//                 </p>
-//                 <div className="flex flex-wrap gap-1.5">
-//                   {m.skills.map((s) => (
-//                     <span
-//                       key={s}
-//                       className="rounded-md px-2.5 py-1 text-[11px] font-semibold"
-//                       style={{
-//                         background: "rgba(255,255,255,0.06)",
-//                         border: "1px solid rgba(255,255,255,0.09)",
-//                         color: "rgba(255,255,255,0.65)",
-//                       }}
-//                     >
-//                       {s}
-//                     </span>
-//                   ))}
-//                 </div>
-//               </div>
-//             </motion.div>
-//           ))}
-//         </motion.div>
-//       </div>
-//     </section>
-//   )
-// }
 "use client";
 ;
 ;
@@ -3532,12 +3295,12 @@ function SocialIcon({ href, icon: Icon }) {
             }
         }, void 0, false, {
             fileName: "[project]/components/team.tsx",
-            lineNumber: 282,
+            lineNumber: 49,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/team.tsx",
-        lineNumber: 272,
+        lineNumber: 39,
         columnNumber: 5
     }, this);
 }
@@ -3553,7 +3316,7 @@ function SkillTag({ label }) {
         children: label
     }, void 0, false, {
         fileName: "[project]/components/team.tsx",
-        lineNumber: 289,
+        lineNumber: 56,
         columnNumber: 5
     }, this);
 }
@@ -3616,7 +3379,7 @@ function Team() {
                             }
                         }, void 0, false, {
                             fileName: "[project]/components/team.tsx",
-                            lineNumber: 324,
+                            lineNumber: 91,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -3627,7 +3390,7 @@ function Team() {
                             children: "The team"
                         }, void 0, false, {
                             fileName: "[project]/components/team.tsx",
-                            lineNumber: 325,
+                            lineNumber: 92,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3637,13 +3400,13 @@ function Team() {
                             }
                         }, void 0, false, {
                             fileName: "[project]/components/team.tsx",
-                            lineNumber: 328,
+                            lineNumber: 95,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/team.tsx",
-                    lineNumber: 317,
+                    lineNumber: 84,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$framer$2d$motion$40$11$2e$18$2e$2_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -3681,7 +3444,7 @@ function Team() {
                             children: "The minds behind Afric-Analyzer"
                         }, void 0, false, {
                             fileName: "[project]/components/team.tsx",
-                            lineNumber: 339,
+                            lineNumber: 106,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3693,13 +3456,13 @@ function Team() {
                             children: "A small, focused team building serious security infrastructure for Africa."
                         }, void 0, false, {
                             fileName: "[project]/components/team.tsx",
-                            lineNumber: 342,
+                            lineNumber: 109,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/team.tsx",
-                    lineNumber: 332,
+                    lineNumber: 99,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$framer$2d$motion$40$11$2e$18$2e$2_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -3743,12 +3506,12 @@ function Team() {
                                 sizes: "320px"
                             }, void 0, false, {
                                 fileName: "[project]/components/team.tsx",
-                                lineNumber: 361,
+                                lineNumber: 128,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/team.tsx",
-                            lineNumber: 360,
+                            lineNumber: 127,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3761,7 +3524,7 @@ function Team() {
                                     children: founder.role
                                 }, void 0, false, {
                                     fileName: "[project]/components/team.tsx",
-                                    lineNumber: 371,
+                                    lineNumber: 138,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -3774,7 +3537,7 @@ function Team() {
                                     children: founder.name
                                 }, void 0, false, {
                                     fileName: "[project]/components/team.tsx",
-                                    lineNumber: 377,
+                                    lineNumber: 144,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3784,34 +3547,34 @@ function Team() {
                                             icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$lucide$2d$react$40$0$2e$564$2e$0_react$40$19$2e$2$2e$4$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$linkedin$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Linkedin$3e$__["Linkedin"]
                                         }, void 0, false, {
                                             fileName: "[project]/components/team.tsx",
-                                            lineNumber: 381,
+                                            lineNumber: 148,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(SocialIcon, {
                                             icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$lucide$2d$react$40$0$2e$564$2e$0_react$40$19$2e$2$2e$4$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$github$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Github$3e$__["Github"]
                                         }, void 0, false, {
                                             fileName: "[project]/components/team.tsx",
-                                            lineNumber: 382,
+                                            lineNumber: 149,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(SocialIcon, {
                                             icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$lucide$2d$react$40$0$2e$564$2e$0_react$40$19$2e$2$2e$4$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$twitter$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Twitter$3e$__["Twitter"]
                                         }, void 0, false, {
                                             fileName: "[project]/components/team.tsx",
-                                            lineNumber: 383,
+                                            lineNumber: 150,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(SocialIcon, {
                                             icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$lucide$2d$react$40$0$2e$564$2e$0_react$40$19$2e$2$2e$4$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mail$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Mail$3e$__["Mail"]
                                         }, void 0, false, {
                                             fileName: "[project]/components/team.tsx",
-                                            lineNumber: 384,
+                                            lineNumber: 151,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/team.tsx",
-                                    lineNumber: 380,
+                                    lineNumber: 147,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3822,7 +3585,7 @@ function Team() {
                                     children: founder.bio
                                 }, void 0, false, {
                                     fileName: "[project]/components/team.tsx",
-                                    lineNumber: 386,
+                                    lineNumber: 153,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3831,24 +3594,24 @@ function Team() {
                                             label: s
                                         }, s, false, {
                                             fileName: "[project]/components/team.tsx",
-                                            lineNumber: 391,
+                                            lineNumber: 158,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/team.tsx",
-                                    lineNumber: 389,
+                                    lineNumber: 156,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/team.tsx",
-                            lineNumber: 370,
+                            lineNumber: 137,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/team.tsx",
-                    lineNumber: 348,
+                    lineNumber: 115,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$framer$2d$motion$40$11$2e$18$2e$2_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -3883,12 +3646,12 @@ function Team() {
                                         sizes: "(max-width: 768px) 100vw, 50vw"
                                     }, void 0, false, {
                                         fileName: "[project]/components/team.tsx",
-                                        lineNumber: 414,
+                                        lineNumber: 181,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/team.tsx",
-                                    lineNumber: 413,
+                                    lineNumber: 180,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3902,7 +3665,7 @@ function Team() {
                                             children: m.role
                                         }, void 0, false, {
                                             fileName: "[project]/components/team.tsx",
-                                            lineNumber: 424,
+                                            lineNumber: 191,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -3913,7 +3676,7 @@ function Team() {
                                             children: m.name
                                         }, void 0, false, {
                                             fileName: "[project]/components/team.tsx",
-                                            lineNumber: 427,
+                                            lineNumber: 194,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3924,7 +3687,7 @@ function Team() {
                                                     icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$lucide$2d$react$40$0$2e$564$2e$0_react$40$19$2e$2$2e$4$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$linkedin$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Linkedin$3e$__["Linkedin"]
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/team.tsx",
-                                                    lineNumber: 431,
+                                                    lineNumber: 198,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(SocialIcon, {
@@ -3932,13 +3695,13 @@ function Team() {
                                                     icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$lucide$2d$react$40$0$2e$564$2e$0_react$40$19$2e$2$2e$4$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$github$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Github$3e$__["Github"]
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/team.tsx",
-                                                    lineNumber: 432,
+                                                    lineNumber: 199,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/team.tsx",
-                                            lineNumber: 430,
+                                            lineNumber: 197,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3949,7 +3712,7 @@ function Team() {
                                             children: m.bio
                                         }, void 0, false, {
                                             fileName: "[project]/components/team.tsx",
-                                            lineNumber: 434,
+                                            lineNumber: 201,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3964,40 +3727,40 @@ function Team() {
                                                     children: s
                                                 }, s, false, {
                                                     fileName: "[project]/components/team.tsx",
-                                                    lineNumber: 439,
+                                                    lineNumber: 206,
                                                     columnNumber: 21
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/components/team.tsx",
-                                            lineNumber: 437,
+                                            lineNumber: 204,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/team.tsx",
-                                    lineNumber: 423,
+                                    lineNumber: 190,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, i, true, {
                             fileName: "[project]/components/team.tsx",
-                            lineNumber: 406,
+                            lineNumber: 173,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/components/team.tsx",
-                    lineNumber: 398,
+                    lineNumber: 165,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/team.tsx",
-            lineNumber: 315,
+            lineNumber: 82,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/team.tsx",
-        lineNumber: 314,
+        lineNumber: 81,
         columnNumber: 5
     }, this);
 }
@@ -4697,172 +4460,6 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$so
 var __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$supabase$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/lib/supabase.ts [app-client] (ecmascript)");
 ;
 var _s = __turbopack_context__.k.signature(), _s1 = __turbopack_context__.k.signature();
-// "use client"
-// import { useState, useEffect } from "react"
-// import { motion } from "framer-motion"
-// import { Mail, Loader2, CheckCircle } from "lucide-react"
-// import { toast } from "sonner"
-// import { submitWaitlistEmail } from "@/lib/supabase"
-// function useCountdown(target: Date) {
-//   const [time, setTime] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 })
-//   useEffect(() => {
-//     const calc = () => {
-//       const now = new Date().getTime()
-//       const diff = Math.max(0, target.getTime() - now)
-//       setTime({
-//         days: Math.floor(diff / (1000 * 60 * 60 * 24)),
-//         hours: Math.floor((diff / (1000 * 60 * 60)) % 24),
-//         minutes: Math.floor((diff / (1000 * 60)) % 60),
-//         seconds: Math.floor((diff / 1000) % 60),
-//       })
-//     }
-//     calc()
-//     const id = setInterval(calc, 1000)
-//     return () => clearInterval(id)
-//   }, [target])
-//   return time
-// }
-// export default function EmailCapture() {
-//   const countdown = useCountdown(new Date("2026-04-01"))
-//   const [email, setEmail] = useState("")
-//   const [loading, setLoading] = useState(false)
-//   const [success, setSuccess] = useState(false)
-//   const handleSubmit = async (e: React.FormEvent) => {
-//     e.preventDefault()
-//     if (!email) return
-//     setLoading(true)
-//     try {
-//       await submitWaitlistEmail(email)
-//       setSuccess(true)
-//       toast.success("Successfully joined the waitlist!")
-//       setEmail("")
-//       setTimeout(() => setSuccess(false), 3000)
-//     } catch {
-//       toast.error("Failed to submit. Please try again.")
-//     } finally {
-//       setLoading(false)
-//     }
-//   }
-//   const units = [
-//     { value: countdown.days, label: "Days" },
-//     { value: countdown.hours, label: "Hours" },
-//     { value: countdown.minutes, label: "Minutes" },
-//     { value: countdown.seconds, label: "Seconds" },
-//   ]
-//   return (
-//     <section style={{ background: "linear-gradient(180deg, #070D1A 0%, #03070F 100%)" }} className="py-24 lg:py-[100px]">
-//       <div className="mx-auto max-w-[1200px] px-6">
-//         {/* Countdown */}
-//         <motion.div
-//           className="text-center"
-//           initial={{ opacity: 0, y: 40 }}
-//           whileInView={{ opacity: 1, y: 0 }}
-//           viewport={{ once: true, margin: "-80px" }}
-//           transition={{ duration: 0.65, ease: [0.22, 1, 0.36, 1] }}
-//         >
-//           <p className="text-sm font-semibold" style={{ color: "rgba(255,255,255,0.45)" }}>
-//             Launching Public Beta
-//           </p>
-//           <p className="mt-1 text-sm" style={{ color: "rgba(255,255,255,0.3)" }}>
-//             April 1, 2026
-//           </p>
-//           <div className="mt-6 flex justify-center gap-3">
-//             {units.map((u, i) => (
-//               <div
-//                 key={i}
-//                 className="flex h-[76px] w-[76px] flex-col items-center justify-center rounded-xl"
-//                 style={{
-//                   background: "rgba(255,255,255,0.04)",
-//                   border: "1px solid rgba(255,255,255,0.08)",
-//                 }}
-//               >
-//                 <span className="text-white" style={{ fontSize: "1.9rem", fontWeight: 900, letterSpacing: "-0.04em" }}>
-//                   {String(u.value).padStart(2, "0")}
-//                 </span>
-//                 <span className="mt-0.5 text-[10px] font-semibold uppercase tracking-[0.07em]" style={{ color: "rgba(255,255,255,0.3)" }}>
-//                   {u.label}
-//                 </span>
-//               </div>
-//             ))}
-//           </div>
-//         </motion.div>
-//         {/* CTA card */}
-//         <motion.div
-//           className="mx-auto mt-14 max-w-[600px] rounded-[20px] p-10 text-center lg:p-[52px_48px]"
-//           style={{
-//             backgroundColor: "#0D1526",
-//             border: "1px solid rgba(37,99,235,0.2)",
-//             boxShadow: "0 0 80px rgba(37,99,235,0.06)",
-//           }}
-//           initial={{ opacity: 0, y: 40 }}
-//           whileInView={{ opacity: 1, y: 0 }}
-//           viewport={{ once: true, margin: "-80px" }}
-//           transition={{ duration: 0.65, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
-//         >
-//           <h2 className="mb-3 text-balance" style={{ fontSize: "1.9rem", fontWeight: 800, color: "white", letterSpacing: "-0.03em" }}>
-//             Be among the first to experience{" "}
-//             <span style={{ color: "#2563EB" }}>Afric-Analyzer</span>
-//           </h2>
-//           <p className="mb-8 text-[15px]" style={{ color: "rgba(255,255,255,0.5)" }}>
-//             Request early access and we{"'"}ll contact you within 24 hours to activate your dashboard.
-//           </p>
-//           <form onSubmit={handleSubmit} className="flex flex-col gap-3 sm:flex-row">
-//             <div className="relative flex-1">
-//               <Mail
-//                 className="pointer-events-none absolute left-3.5 top-1/2 h-[18px] w-[18px] -translate-y-1/2"
-//                 style={{ color: "rgba(255,255,255,0.3)" }}
-//               />
-//               <input
-//                 type="email"
-//                 value={email}
-//                 onChange={(e) => setEmail(e.target.value)}
-//                 placeholder="Enter your email address"
-//                 className="w-full rounded-[10px] py-3.5 pl-11 pr-3.5 text-sm text-white placeholder:text-white/30 focus:outline-none"
-//                 style={{
-//                   background: "rgba(255,255,255,0.06)",
-//                   border: "1px solid rgba(255,255,255,0.12)",
-//                 }}
-//                 onFocus={(e) => (e.target.style.borderColor = "#2563EB")}
-//                 onBlur={(e) => (e.target.style.borderColor = "rgba(255,255,255,0.12)")}
-//               />
-//             </div>
-//             <motion.button
-//               type="submit"
-//               disabled={loading || success}
-//               className="flex items-center justify-center gap-2 rounded-[10px] px-6 py-3.5 text-[15px] font-bold text-white disabled:opacity-50"
-//               style={{
-//                 backgroundColor: "#2563EB",
-//                 boxShadow: "0 0 24px rgba(37,99,235,0.35)",
-//               }}
-//               whileHover={{
-//                 boxShadow: "0 0 40px rgba(37,99,235,0.55), 0 0 80px rgba(37,99,235,0.2)",
-//                 scale: 1.03,
-//               }}
-//               whileTap={{ scale: 0.97 }}
-//             >
-//               {loading ? (
-//                 <>
-//                   <Loader2 className="h-4 w-4 animate-spin" />
-//                   Submitting...
-//                 </>
-//               ) : success ? (
-//                 <>
-//                   <CheckCircle className="h-4 w-4" style={{ color: "#0D9488" }} />
-//                   Submitted!
-//                 </>
-//               ) : (
-//                 "Request Access"
-//               )}
-//             </motion.button>
-//           </form>
-//           <p className="mt-3.5 text-xs" style={{ color: "rgba(255,255,255,0.25)" }}>
-//             We respect your privacy. No spam — ever.
-//           </p>
-//         </motion.div>
-//       </div>
-//     </section>
-//   )
-// }
 "use client";
 ;
 ;
@@ -4982,7 +4579,7 @@ function EmailCapture() {
                             children: "Launching Public Beta"
                         }, void 0, false, {
                             fileName: "[project]/components/email-capture.tsx",
-                            lineNumber: 251,
+                            lineNumber: 73,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4993,7 +4590,7 @@ function EmailCapture() {
                             children: "April 1, 2026"
                         }, void 0, false, {
                             fileName: "[project]/components/email-capture.tsx",
-                            lineNumber: 254,
+                            lineNumber: 76,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5015,7 +4612,7 @@ function EmailCapture() {
                                             children: String(u.value).padStart(2, "0")
                                         }, void 0, false, {
                                             fileName: "[project]/components/email-capture.tsx",
-                                            lineNumber: 268,
+                                            lineNumber: 90,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -5026,24 +4623,24 @@ function EmailCapture() {
                                             children: u.label
                                         }, void 0, false, {
                                             fileName: "[project]/components/email-capture.tsx",
-                                            lineNumber: 271,
+                                            lineNumber: 93,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, i, true, {
                                     fileName: "[project]/components/email-capture.tsx",
-                                    lineNumber: 260,
+                                    lineNumber: 82,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/components/email-capture.tsx",
-                            lineNumber: 258,
+                            lineNumber: 80,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/email-capture.tsx",
-                    lineNumber: 244,
+                    lineNumber: 66,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$framer$2d$motion$40$11$2e$18$2e$2_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -5094,13 +4691,13 @@ function EmailCapture() {
                                     children: "Afric-Analyzer"
                                 }, void 0, false, {
                                     fileName: "[project]/components/email-capture.tsx",
-                                    lineNumber: 294,
+                                    lineNumber: 116,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/email-capture.tsx",
-                            lineNumber: 292,
+                            lineNumber: 114,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5115,7 +4712,7 @@ function EmailCapture() {
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/email-capture.tsx",
-                            lineNumber: 296,
+                            lineNumber: 118,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
@@ -5132,7 +4729,7 @@ function EmailCapture() {
                                             }
                                         }, void 0, false, {
                                             fileName: "[project]/components/email-capture.tsx",
-                                            lineNumber: 302,
+                                            lineNumber: 124,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -5149,13 +4746,13 @@ function EmailCapture() {
                                             onBlur: (e)=>e.target.style.borderColor = "rgba(255,255,255,0.12)"
                                         }, void 0, false, {
                                             fileName: "[project]/components/email-capture.tsx",
-                                            lineNumber: 306,
+                                            lineNumber: 128,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/email-capture.tsx",
-                                    lineNumber: 301,
+                                    lineNumber: 123,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$framer$2d$motion$40$11$2e$18$2e$2_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].button, {
@@ -5179,7 +4776,7 @@ function EmailCapture() {
                                                 className: "h-4 w-4 animate-spin"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/email-capture.tsx",
-                                                lineNumber: 336,
+                                                lineNumber: 158,
                                                 columnNumber: 19
                                             }, this),
                                             "Submitting..."
@@ -5193,7 +4790,7 @@ function EmailCapture() {
                                                 }
                                             }, void 0, false, {
                                                 fileName: "[project]/components/email-capture.tsx",
-                                                lineNumber: 341,
+                                                lineNumber: 163,
                                                 columnNumber: 19
                                             }, this),
                                             "Submitted!"
@@ -5201,13 +4798,13 @@ function EmailCapture() {
                                     }, void 0, true) : "Request Access"
                                 }, void 0, false, {
                                     fileName: "[project]/components/email-capture.tsx",
-                                    lineNumber: 320,
+                                    lineNumber: 142,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/email-capture.tsx",
-                            lineNumber: 300,
+                            lineNumber: 122,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$6_react$2d$dom$40$19$2e$2$2e$4_react$40$19$2e$2$2e$4_$5f$react$40$19$2e$2$2e$4$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5218,24 +4815,24 @@ function EmailCapture() {
                             children: "We respect your privacy. No spam — ever."
                         }, void 0, false, {
                             fileName: "[project]/components/email-capture.tsx",
-                            lineNumber: 350,
+                            lineNumber: 172,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/email-capture.tsx",
-                    lineNumber: 280,
+                    lineNumber: 102,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/email-capture.tsx",
-            lineNumber: 242,
+            lineNumber: 64,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/email-capture.tsx",
-        lineNumber: 241,
+        lineNumber: 63,
         columnNumber: 5
     }, this);
 }

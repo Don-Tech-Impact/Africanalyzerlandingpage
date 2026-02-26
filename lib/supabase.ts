@@ -1,27 +1,3 @@
-// import { createClient } from "@supabase/supabase-js"
-
-// export const supabase = createClient(
-//   process.env.NEXT_PUBLIC_SUPABASE_URL!,
-//   process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
-// )
-
-// export async function submitWaitlistEmail(email: string) {
-//   const { error } = await supabase
-//     .from("access_requests")
-//     .insert([{ email, request_type: "waitlist" }])
-//   if (error) throw error
-// }
-
-// export async function submitFullAccessRequest(
-//   email: string,
-//   name: string,
-//   organization: string
-// ) {
-//   const { error } = await supabase
-//     .from("access_requests")
-//     .insert([{ email, name, organization, request_type: "full_access" }])
-//   if (error) throw error
-// }
 import { createClient } from '@supabase/supabase-js';
 
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL!;
