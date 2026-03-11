@@ -434,9 +434,9 @@ function AnimatedCounter({ value, prefix = "", suffix = "" }: { value: number; p
 }
 
 const stats = [
-  { value: 0, prefix: "", suffix: "", label: "Live pilot running with a West African university", isStatic: true, staticDisplay: "🟢 Live" },
+  { value: 0, prefix: "", suffix: "", label: "Live pilot running with a West African university", isStatic: true, staticDisplay: "Live" },
   { value: 1000, prefix: "", suffix: "+", label: "Security events analysed in first week" },
-  { value: 0, prefix: "", suffix: "", label: "Built by MSc AI & Cybersecurity engineers in Austria & Italy", isStatic: true, staticDisplay: "🎓 MSc" },
+  { value: 0, prefix: "", suffix: "", label: "Built by MSc AI & Cybersecurity engineers in Austria & Italy", isStatic: true, staticDisplay: "MSc" },
   { value: 0, prefix: "<30", suffix: " min", label: "Average setup time from signup to first alert", isStatic: true },
 ]
 

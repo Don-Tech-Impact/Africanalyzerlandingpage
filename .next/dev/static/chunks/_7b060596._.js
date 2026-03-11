@@ -796,7 +796,7 @@ const stats = [
         suffix: "",
         label: "Live pilot running with a West African university",
         isStatic: true,
-        staticDisplay: "🟢 Live"
+        staticDisplay: "Live"
     },
     {
         value: 1000,
@@ -810,7 +810,7 @@ const stats = [
         suffix: "",
         label: "Built by MSc AI & Cybersecurity engineers in Austria & Italy",
         isStatic: true,
-        staticDisplay: "🎓 MSc"
+        staticDisplay: "MSc"
     },
     {
         value: 0,
