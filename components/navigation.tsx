@@ -1,8 +1,9 @@
 "use client"
 
 import { useState, useEffect } from "react"
+import Image from "next/image"
 import { motion, AnimatePresence } from "framer-motion"
-import { Menu, X, ShieldCheck } from "lucide-react"
+import { Menu, X } from "lucide-react"
 
 interface NavigationProps {
   onRequestAccess: () => void
@@ -41,8 +42,14 @@ export default function Navigation({ onRequestAccess }: NavigationProps) {
         <div className="mx-auto flex h-full max-w-[1200px] items-center justify-between px-6">
           {/* Logo */}
           <a href="#" className="flex items-center gap-2.5">
-            <div className="flex h-8 w-8 items-center justify-center rounded-lg" style={{ background: "linear-gradient(135deg, #2563EB, #0D9488)" }}>
-              <ShieldCheck className="h-[18px] w-[18px] text-white" />
+            <div className="flex h-8 w-8 items-center justify-center overflow-hidden rounded-lg">
+              <Image
+                src="/logo.png"
+                alt="Logo"
+                width={32}
+                height={32}
+                className="h-full w-full object-contain"
+              />
             </div>
             <span className="text-[15px] font-bold tracking-[-0.02em] text-white">
               AFRIC-ANALYZER
@@ -64,9 +71,6 @@ export default function Navigation({ onRequestAccess }: NavigationProps) {
 
           {/* Right side (desktop) */}
           <div className="hidden items-center gap-4 md:flex">
-            <button className="text-sm text-white/50 transition-colors duration-150 hover:text-white">
-              Sign In
-            </button>
             <motion.button
               onClick={onRequestAccess}
               className="rounded-full px-5 py-2 text-[13px] font-semibold text-white"
